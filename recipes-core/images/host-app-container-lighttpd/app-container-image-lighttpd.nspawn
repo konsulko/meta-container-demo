@@ -1,0 +1,8 @@
+[Exec]
+Boot=false
+Parameters=/usr/sbin/lighttpd -D -f /etc/lighttpd/lighttpd.conf
+LinkJournal=no
+PrivateUsers=false 
+
+[Network]
+VirtualEthernet=false

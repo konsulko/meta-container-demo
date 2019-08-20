@@ -6,15 +6,14 @@ IMAGE_FSTYPES = "container"
 
 inherit image
 
-IMAGE_TYPEDEP_container += "ext4"
-
 IMAGE_FEATURES = ""
 IMAGE_LINGUAS = ""
 NO_RECOMMENDATIONS = "1"
+FORCE_RO_REMOVE = "1"
+MACHINE_ESSENTIAL_EXTRA_RDEPENDS = ""
 
 IMAGE_INSTALL = " \
         base-files \
-        base-passwd \
         netbase \
 "
 

@@ -6,11 +6,11 @@ Dependencies
 ============
 
 URI: git://git.openembedded.org/openembedded-core
-branch: thud
+branch: warrior
 
 URI: git://git.yoctoproject.org/cgit/cgit.cgi/meta-yocto
 URI: git://git.yoctoproject.org/cgit/cgit.cgi/meta-yocto-bsp
-branch: thud
+branch: warrior
 
 Patches
 =======
@@ -35,7 +35,10 @@ Run 'bitbake-layers add-layer meta-container-demo'
 II. Misc
 ========
 
-Simple container demonstration recipes, content from ELCE 2018 presentation:
+Simple container demonstration recipes, originally based on content from
+ELCE 2018 presentation:
 
 https://elinux.org/images/6/62/Building-Container-Images-with-OpenEmbedded-and-the-Yocto-Project-Scott-Murray-Konsulko-Group-1.pdf
 https://youtu.be/OSyLoHYxGLQ
+
+Updated for Yocto Project Developer Day presentation at ELC 2019.

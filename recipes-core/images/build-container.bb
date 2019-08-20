@@ -12,7 +12,7 @@ IMAGE_INSTALL = " \
 "
 
 IMAGE_LINGUAS = "en-us"
-IMAGE_TYPEDEP_container += "ext4"
+MACHINE_ESSENTIAL_EXTRA_RDEPENDS = ""
 
 # Workaround /var/volatile for now
 ROOTFS_POSTPROCESS_COMMAND += "rootfs_fixup_var_volatile ; "
