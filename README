@@ -1,0 +1,41 @@
+This README file contains information on the contents of the meta-container-demo layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+URI: git://git.openembedded.org/openembedded-core
+branch: thud
+
+URI: git://git.yoctoproject.org/cgit/cgit.cgi/meta-yocto
+URI: git://git.yoctoproject.org/cgit/cgit.cgi/meta-yocto-bsp
+branch: thud
+
+Patches
+=======
+
+Please submit any patches against the meta-container-demo layer to the xxxx mailing list (xxxx@zzzz.org)
+and cc: the maintainer:
+
+Maintainer: Scott Murray <scott.murray@konsulko.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-container-demo layer to your build
+ II. Misc
+
+
+I. Adding the meta-container-demo layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-container-demo'
+
+II. Misc
+========
+
+Simple container demonstration recipes, content from ELCE 2018 presentation:
+
+https://elinux.org/images/6/62/Building-Container-Images-with-OpenEmbedded-and-the-Yocto-Project-Scott-Murray-Konsulko-Group-1.pdf
+https://youtu.be/OSyLoHYxGLQ
