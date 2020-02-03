@@ -4,8 +4,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 
 do_compile[noexec] = "1"
 
-#do_install[mcdepends] = "multiconfig:host:container:app-container-image-lighttpd:do_image_complete"
-do_install[mcdepends] = "multiconfig::container:app-container-image-lighttpd:do_image_complete"
+do_install[mcdepends] = "mc::container:app-container-image-lighttpd:do_image_complete"
 
 do_install () {
     install -d ${D}/var/lib/machines

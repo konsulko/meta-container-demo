@@ -8,7 +8,7 @@ SRC_URI = "file://${CONTAINER_NAME}.nspawn"
 
 do_compile[noexec] = "1"
 
-do_install[mcdepends] = "multiconfig::container:${CONTAINER_NAME}:do_image_complete"
+do_install[mcdepends] = "mc::container:${CONTAINER_NAME}:do_image_complete"
 
 CONTAINER_NAME = "app-container-image-lighttpd"
 CONTAINER_TMPDIR ?= "${TMPDIR}"
